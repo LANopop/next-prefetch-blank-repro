@@ -1,0 +1,20 @@
+{
+  "name": "next-prefetch-blank-repro",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p 3100 -H 127.0.0.1",
+    "probe": "node scripts/probe.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "playwright": "1.63.0",
+    "typescript": "^5"
+  }
+}
